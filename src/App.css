@@ -15,6 +15,10 @@
   animation: introtext 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
+a {
+  color: unset;
+}
+
 @keyframes introtext {
   0% {
     transform: scaleX(1);
@@ -231,6 +235,8 @@
 
 .project-box-image {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .project-box-title {

@@ -7,6 +7,7 @@ import ProjectBox from './components/ProjectBox'
 import OneSettings from './images/OneSettings.png'
 import Ourea from './images/Ourea.png'
 import SmallTweaks from './images/SmallTweaks.png'
+import Hexact from './images/Hexact.png'
 import Footer from './components/Footer';
 
 function App() {
@@ -287,6 +288,27 @@ function App() {
                         <button className='project-box-class-button'>View Work</button>
                       </a>
                       <a href='https://nightwinddev.github.io' target='_blank' rel='noopener noreferrer' aria-label='Open Repo Where Tweaks Are Hosted'>
+                        <button className='project-box-class-button'>Live Page</button>
+                      </a>
+                    </div>
+                  </div>
+                </ProjectBox>
+                <ProjectBox>
+                  <img className='project-box-image' alt='' src={Hexact} />
+                  <div className='project-box-content'>
+                    <div className='project-box-title'>Hexact (Clone)</div>
+                    <div className='project-box-tags-box'>
+                      <div className='project-box-tag'>ReactJS</div>
+                      <div className='project-box-tag'>CSS</div>
+                    </div>
+                    <div className='project-box-description'>
+                      A <strong><u>clone</u></strong> of the official <a href="https://hexact.io">website</a>. Done as a challenge to polish ReactJS skills.
+                    </div>
+                    <div className='project-box-class-buttons-box'>
+                      <a href='https://github.com/NightwindDev/hexact-clone' target='_blank' rel='noopener noreferrer' aria-label='Open GitHub Page for Small Tweaks'>
+                        <button className='project-box-class-button'>View Work</button>
+                      </a>
+                      <a href='https://hexact-clone.pages.dev' target='_blank' rel='noopener noreferrer' aria-label='Open Repo Where Tweaks Are Hosted'>
                         <button className='project-box-class-button'>Live Page</button>
                       </a>
                     </div>
